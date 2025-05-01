@@ -32,7 +32,7 @@
 
 ## Demo
 
-Visit the live demo: [https://plasma-memes.vercel.app](https://plasma-memes.vercel.app)
+Visit the live demo: [https://plasmamemes.xyz/](https://plasmamemes.xyz/)
 
 ### Admin Access
 
