@@ -1,0 +1,21 @@
+{
+  "name": "Plasma Memes",
+  "short_name": "Plasma Memes",
+  "description": "A curated collection of the best memes from the Plasma community",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#001A19",
+  "theme_color": "#002A29",
+  "icons": [
+    {
+      "src": "/plasma-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/plasma-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
