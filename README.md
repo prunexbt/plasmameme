@@ -64,24 +64,26 @@ To access the admin dashboard:
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+    ```bash
    git clone https://github.com/yourusername/plasma-memes.git
    cd plasma-memes
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+    ```bash
    npm install
-   # or
+    ```
+   or
+    ```bash
    yarn install
-   \`\`\`
+    ```
 
 3. Create a `.env.local` file in the root directory with your Supabase credentials:
-   \`\`\`
+    ```
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-   \`\`\`
+    ```
 
 4. Set up your Supabase database:
    - Create a new project in Supabase
@@ -89,11 +91,13 @@ To access the admin dashboard:
    - Enable Storage and create a bucket named "memes"
 
 5. Run the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   # or
+   ```
+   or
+   ```bash
    yarn dev
-   \`\`\`
+    ```
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -111,7 +115,7 @@ The following environment variables are required:
 
 The application uses a single table in Supabase:
 
-\`\`\`sql
+ ```sql
 CREATE TABLE memes (
   id UUID PRIMARY KEY,
   image_url TEXT NOT NULL,
@@ -120,7 +124,7 @@ CREATE TABLE memes (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
-\`\`\`
+ ```
 
 ## Deployment
 
